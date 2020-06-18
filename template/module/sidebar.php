@@ -42,6 +42,7 @@
 				<ul class="treeview-menu">
 					<li><a href="?module=transaksi/booking"><i class="fa fa-circle-o"></i> Reservasi / Booking</a></li>
 					<li><a href="?module=transaksi/booking-list"><i class="fa fa-circle-o"></i> List Reservasi / Booking</a></li>
+					<li><a href="?module=transaksi/booking-list-online"><i class="fa fa-circle-o"></i> List Booking Online</a></li>
 					<li><a href="?module=transaksi/booking-refund"><i class="fa fa-circle-o"></i> List Refund</a></li>
 				</ul>
 			</li>

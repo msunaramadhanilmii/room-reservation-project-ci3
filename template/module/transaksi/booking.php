@@ -30,7 +30,7 @@ $nomor_invoice = 'INV-' . date('Ymd') . '-' . (rand(10, 100));
 							<div class="col-sm-3">
 								<div class="form-group">
 									<label># INVOICE</label>
-									<input class="form-control" name="nomor_invoice" value="<?php echo $nomor_invoice; ?>" />
+									<input class="form-control" name="nomor_invoice" value="<?php echo $nomor_invoice; ?>" readonly />
 								</div>
 								<div class="alert alert-info">
 									<h4><?php echo $kamar_view['nama_kamar_tipe']; ?></h4>

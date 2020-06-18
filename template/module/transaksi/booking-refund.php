@@ -48,7 +48,7 @@ include('component/com-booking.php')
 							Untuk sementara tidak ada tamu yang sedang menginap.
 						</div>
 					<?php } ?>
-					<a class="btn btn-primary pull-left" href="?module=transaksi/booking-cetak">Cetak</a>
+					<a class="btn btn-primary pull-left" href="?module=transaksi/booking-refund-cetak">Cetak</a>
 				</div>
 			</div>
 		</div>

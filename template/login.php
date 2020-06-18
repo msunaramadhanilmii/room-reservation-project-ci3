@@ -43,7 +43,7 @@
 				</div>
 				<button name="login" type="submit" class="btn" value="Login" name="login">Login</button>
 				<a href="daftar.php" style="text-align:center">Create Account</a>
-				<a href="index.php" style="text-align:center">Back</a>
+				<a href="_index.php" style="text-align:center">Back</a>
 			</form>
 		</div>
 	</div>

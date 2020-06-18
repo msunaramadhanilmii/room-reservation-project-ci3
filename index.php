@@ -3,7 +3,7 @@
 session_start();
 
 if (!isset($_SESSION['username'])) {
-	header('location:marian/index.php');
+	header('location:index.php');
 }
 
 require('config/database.php');

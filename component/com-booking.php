@@ -119,6 +119,26 @@ $tamu_refund = $database->select('booking', [
 	'status' => 'REFUND'
 ]);
 
+
+// Tamu booking online
+
+$booking_online = $database->select('booking_on', [
+	'booking_on.id_booking_tamu',
+	'booking_on.id_user_tamu',
+	'booking_on.nomor_invoice',
+	'booking_on.tanggal',
+	'booking_on.id_kamar_tipe',
+	'booking_on.id_kamar',
+	'booking_on.jumlah_dewasa',
+	'booking_on.jumlah_anak',
+	'booking_on.tanggal_checkin',
+	'booking_on.tanggal_checkout',
+	'booking_on.total_biaya_kamar',
+	'booking_on.status',
+], [
+	'status' => 'Menunggu'
+]);
+
 if (!empty($_GET['booking'])) {
 
 	$transaksi_booking = $database->get('booking', [
@@ -155,6 +175,7 @@ if (!empty($_GET['booking'])) {
 		'id_booking' => $_GET['booking']
 	]);
 }
+
 
 
 // Check In Tamu

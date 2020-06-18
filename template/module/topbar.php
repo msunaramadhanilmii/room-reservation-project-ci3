@@ -42,6 +42,9 @@
 							<div class="pull-right">
 								<a href="logout.php" class="btn btn-default btn-flat">Log Out</a>
 							</div>
+							<div class="pull-left">
+								<a href="?module=user/profile&user=<?php echo $_SESSION['id_user']; ?>" class="btn btn-default btn-flat">Edit Profile</a>
+							</div>
 						</li>
 					</ul>
 				</li>

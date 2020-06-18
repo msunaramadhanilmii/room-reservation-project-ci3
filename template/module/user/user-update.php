@@ -5,7 +5,7 @@ include('component/com-user.php');
 ?>
 
 <section class="content-header">
-	<h1>Tambah User Baru</h1>
+	<h1>Edite Profile</h1>
 </section>
 
 <section class="content">

@@ -3,6 +3,6 @@
 session_start();
 
 session_destroy();
-header('location:marian/index.php');
+header('location:_index.php');
 
 exit;
